@@ -1,0 +1,37 @@
+.body{
+morgin:0;
+padding:0;
+}
+#logo{
+
+float:left;
+morgin:5px;
+background:url('../img/logo.png')
+height:50px;
+}
+.logotext{
+float:right;
+morgin:20px;
+}
+.header{
+height:100px;
+background:url('../img/pl.jpg');
+}
+.topmenu{
+display:flex 
+width:100%;
+morgin:0 auto;
+}
+.topmenu a{
+flex:1;
+background:purple;
+color:white;
+text-decoration:none;
+text-align:center;
+padding:5px;
+border-left:1px solid #fff;
+}
+.topmenu a:hover{
+background:olive;
+color:black;	
+}
